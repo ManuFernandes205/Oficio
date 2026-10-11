@@ -1,0 +1,68 @@
+.esquerda{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.centro{
+    text-align: center;
+}
+
+.direita{
+    text-align: right;
+}
+
+.justificado{
+    text-align: justify;
+    font-size: 14px;             
+    color: #000000;              
+    line-height: 1.4;           
+    margin: 0;  
+         
+}
+
+.container-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-esquerda{
+    display: flex;
+    align-items: center;       
+    gap: 10px;  
+    width: 150px;             
+    height: auto;                  
+}
+
+.bloco-assinatura{
+    display: flex;
+    align-items: center;          
+    padding-bottom: 15px; 
+    border-bottom: 2px solid gray;       
+    font-family: Arial, sans-serif; 
+    max-width: 800px;           
+              
+}
+
+.logo{
+    width: 80px;                 
+    height: auto;
+    flex-shrink: 0;   
+}
+
+.referencia{
+    text-align: justify;
+    border-top: 3px solid gray;
+}
+
+body{
+   font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.assunto{
+    text-align: justify;
+    font-weight: bold;
+}
